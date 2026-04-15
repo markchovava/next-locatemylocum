@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+
+.container__primary{
+  @apply mx-auto w-[92%];
+}

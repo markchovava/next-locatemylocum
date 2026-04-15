@@ -1,0 +1,1 @@
+export const NoImageData = '/assets/images/no_photo.jpg'

@@ -1,0 +1,247 @@
+import { JobInterface } from "../entity/JobEntity";
+
+
+
+
+export const JobData: JobInterface[] = [
+  {
+    name: "Accuracy Checking Technician",
+    description: "Final checking of dispensed prescriptions to ensure patient safety and accuracy in a high-volume pharmacy.",
+    requirements: "NVQ Level 3 in Pharmacy Services and ACT certification.",
+    location: "Harare",
+    wage: "$18/hr",
+    salary: 1800,
+    company: "HealthFirst Pharmacy",
+    startingDate: "2026-05-01",
+    startTime: "08:30 AM",
+    endTime: "05:30 PM"
+  },
+  {
+    name: "Audiologist",
+    description: "Conducting hearing tests and providing rehabilitative services for patients with auditory disorders.",
+    requirements: "Degree in Audiology and registration with the Health Professions Council.",
+    location: "Bulawayo",
+    wage: "$25/hr",
+    salary: 2800,
+    company: "HearClear Clinic",
+    startingDate: "2026-06-10",
+    startTime: "09:00 AM",
+    endTime: "04:30 PM"
+  },
+  {
+    name: "Contact Lens Optician",
+    description: "Fitting and providing aftercare for a wide range of contact lenses for patients with complex needs.",
+    requirements: "FBDO qualification and specialty contact lens certification.",
+    location: "Mutare",
+    wage: "$22/hr",
+    salary: 2400,
+    company: "Visionary Eyecare",
+    startingDate: "2026-05-15",
+    startTime: "08:00 AM",
+    endTime: "05:00 PM"
+  },
+  {
+    name: "Dispensing Optician",
+    description: "Advising patients on lens types and frames, ensuring perfect fit and visual comfort.",
+    requirements: "GOC registration and diploma in Ophthalmic Dispensing.",
+    location: "Harare",
+    wage: "$20/hr",
+    salary: 2100,
+    company: "Spectacle World",
+    startingDate: "2026-05-01",
+    startTime: "08:30 AM",
+    endTime: "05:00 PM"
+  },
+  {
+    name: "Driver",
+    description: "Safe transport of medical supplies and equipment between regional clinics.",
+    requirements: "Clean Class 4 Driver's License and Defensive Driving Certificate.",
+    location: "Gweru",
+    wage: "$10/hr",
+    salary: 850,
+    company: "Medi-Logistics Zimbabwe",
+    startingDate: "2026-05-05",
+    startTime: "07:00 AM",
+    endTime: "04:00 PM"
+  },
+  {
+    name: "Health Care Assistant",
+    description: "Providing essential daily care and support to patients in a residential setting.",
+    requirements: "Certificate in Caregiving and 1-year clinical experience.",
+    location: "Masvingo",
+    wage: "$9/hr",
+    salary: 750,
+    company: "Graceful Aging Homes",
+    startingDate: "2026-06-01",
+    startTime: "06:00 AM",
+    endTime: "02:00 PM"
+  },
+  {
+    name: "Lab Tech",
+    description: "Processing clinical samples and maintaining laboratory equipment calibration.",
+    requirements: "Diploma in Medical Laboratory Technology.",
+    location: "Harare",
+    wage: "$16/hr",
+    salary: 1600,
+    company: "BioLab Diagnostics",
+    startingDate: "2026-05-20",
+    startTime: "08:00 AM",
+    endTime: "05:00 PM"
+  },
+  {
+    name: "Nurse",
+    description: "Delivering primary healthcare and administering treatment plans to hospital patients.",
+    requirements: "Diploma or Degree in Nursing and valid PCZ practicing certificate.",
+    location: "Chitungwiza",
+    wage: "$19/hr",
+    salary: 1900,
+    company: "Citadel Medical Centre",
+    startingDate: "2026-05-01",
+    startTime: "07:00 AM",
+    endTime: "07:00 PM"
+  },
+  {
+    name: "Ophthalmic Medical Practitioner",
+    description: "Diagnosing and treating eye diseases, including minor surgical procedures.",
+    requirements: "Medical Degree with Ophthalmic specialization.",
+    location: "Harare",
+    wage: "$40/hr",
+    salary: 4500,
+    company: "Central Eye Hospital",
+    startingDate: "2026-07-01",
+    startTime: "08:00 AM",
+    endTime: "04:00 PM"
+  },
+  {
+    name: "Optical Assistant",
+    description: "Assisting customers with frame selection and performing preliminary vision tests.",
+    requirements: "Excellent customer service skills and basic optical knowledge.",
+    location: "Bulawayo",
+    wage: "$11/hr",
+    salary: 950,
+    company: "QuickSight Optical",
+    startingDate: "2026-05-12",
+    startTime: "09:00 AM",
+    endTime: "05:30 PM"
+  },
+  {
+    name: "Optometrist",
+    description: "Performing comprehensive eye exams and prescribing corrective lenses.",
+    requirements: "Degree in Optometry and current professional registration.",
+    location: "Harare",
+    wage: "$30/hr",
+    salary: 3200,
+    company: "ClearView Optics",
+    startingDate: "2026-06-01",
+    startTime: "08:30 AM",
+    endTime: "05:00 PM"
+  },
+  {
+    name: "Pharmacist",
+    description: "Managing medication therapy and providing clinical advice to patients and doctors.",
+    requirements: "Bachelor of Pharmacy and registration with the Pharmacists Council.",
+    location: "Kwekwe",
+    wage: "$28/hr",
+    salary: 2600,
+    company: "City Health Pharmacy",
+    startingDate: "2026-05-15",
+    startTime: "08:00 AM",
+    endTime: "06:00 PM"
+  },
+  {
+    name: "Pharmacy Dispenser",
+    description: "Labeling and assembling prescriptions under the supervision of a pharmacist.",
+    requirements: "NVQ Level 2 in Pharmacy Service Skills.",
+    location: "Harare",
+    wage: "$12/hr",
+    salary: 1100,
+    company: "GreenCross Medicines",
+    startingDate: "2026-05-01",
+    startTime: "08:00 AM",
+    endTime: "05:00 PM"
+  },
+  {
+    name: "Pharmacy Technician",
+    description: "Managing pharmacy stock, preparing complex medications, and assisting in clinical trials.",
+    requirements: "Professional Diploma in Pharmacy Technology.",
+    location: "Mutare",
+    wage: "$15/hr",
+    salary: 1400,
+    company: "Eastern Health Labs",
+    startingDate: "2026-06-05",
+    startTime: "08:30 AM",
+    endTime: "05:00 PM"
+  },
+  {
+    name: "Senior Carer",
+    description: "Leading a team of caregivers to provide high-quality support to elderly residents.",
+    requirements: "NVQ Level 3 in Health and Social Care and leadership experience.",
+    location: "Harare",
+    wage: "$14/hr",
+    salary: 1300,
+    company: "Golden Years Estate",
+    startingDate: "2026-05-20",
+    startTime: "07:00 AM",
+    endTime: "03:00 PM"
+  },
+  {
+    name: "Optometrist",
+    description: "Specializing in pediatric optometry and visual development.",
+    requirements: "BSc Optometry and Pediatric certification.",
+    location: "Harare",
+    wage: "$32/hr",
+    salary: 3400,
+    company: "KidsVision Center",
+    startingDate: "2026-08-01",
+    startTime: "08:30 AM",
+    endTime: "04:30 PM"
+  },
+  {
+    name: "Nurse",
+    description: "Triage and emergency care in a busy metropolitan trauma unit.",
+    requirements: "Registered General Nurse (RGN) with Trauma certification.",
+    location: "Bulawayo",
+    wage: "$21/hr",
+    salary: 2000,
+    company: "Central City Hospital",
+    startingDate: "2026-05-10",
+    startTime: "07:00 PM",
+    endTime: "07:00 AM"
+  },
+  {
+    name: "Driver",
+    description: "Ambulance driver responsible for emergency patient transport.",
+    requirements: "Class 2 License, Defensive Driving, and Basic First Aid.",
+    location: "Harare",
+    wage: "$12/hr",
+    salary: 950,
+    company: "Rapid Response EMS",
+    startingDate: "2026-05-01",
+    startTime: "Shift Rotation",
+    endTime: "Shift Rotation"
+  },
+  {
+    name: "Pharmacy Technician",
+    description: "Overseeing automated dispensing systems and inventory control.",
+    requirements: "Diploma in Pharmacy Tech and IT proficiency.",
+    location: "Harare",
+    wage: "$16/hr",
+    salary: 1550,
+    company: "TechPharma Solutions",
+    startingDate: "2026-06-15",
+    startTime: "09:00 AM",
+    endTime: "06:00 PM"
+  },
+  {
+    name: "Health Care Assistant",
+    description: "Supporting post-operative patients with rehabilitation and mobility exercises.",
+    requirements: "Certificate in Health Studies and Rehab experience.",
+    location: "Victoria Falls",
+    wage: "$10/hr",
+    salary: 800,
+    company: "Falls Medical Lodge",
+    startingDate: "2026-05-25",
+    startTime: "08:00 AM",
+    endTime: "04:00 PM"
+  }
+];
