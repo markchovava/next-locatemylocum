@@ -7,6 +7,7 @@ import Button from "./_components/buttons/Button";
 import { PackageBenefitsData, PackageData } from "./_data/sample/PackageData";
 import PackageSection from "./_components/sections/PackageSection";
 import BenefitsSection from "./_components/sections/BenefitsSection";
+import FadeSlideIn from "@/_components/effects/FadeSlideIn";
 
 
 
@@ -17,9 +18,13 @@ export default function Home() {
       <Header />
       <Banner />
 
-      <PackageSection />
+      <FadeSlideIn slideDirection="up" duration={1500}>
+          <PackageSection />
+      </FadeSlideIn>
 
-      <BenefitsSection />
+      <FadeSlideIn slideDirection="up" duration={1500}>
+          <BenefitsSection />
+      </FadeSlideIn>
 
       
     </main>

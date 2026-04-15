@@ -21,15 +21,15 @@ const fadeUp: Variants = {
 export default function Banner() {
     return (
         <section
-            className="relative h-130 w-full overflow-hidden bg-center bg-cover bg-no-repeat"
+            className="relative h-140 w-full overflow-hidden bg-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage: 'url("/assets/img/banner/01_bg.jpg")',
+                backgroundImage: 'url("/assets/images/banner/01.jpg")',
                 // Added a fallback linear gradient in case the image fails to load
                 backgroundAttachment: 'fixed' 
             }}
         >
             {/* 1. Dark Overlay: Ensures text readability */}
-            <div className="absolute inset-0 bg-black/40 z-0" />
+            {/* <div className="absolute inset-0 bg-linear-to-tr from-green-950 to-transparent z-0" /> */}
 
             {/* 2. Content Container */}
             <div className="container__primary relative z-10 h-full flex items-center">
@@ -42,11 +42,12 @@ export default function Banner() {
                         viewport={{ once: true, amount: 0.3 }}
                         custom={0.1}
                     >
-                        <Title name="Moving healthcare workers to where they are needed." css="text-white text-shadow-lg" />
+                        <Title name="Moving healthcare workers to where they are needed." 
+                        css="text-green-900 text-shadow-lg" />
                     </motion.div>
 
                     <motion.p
-                        className="text-xl md:text-2xl font-light mb-8 mt-4 text-white text-shadow-md"
+                        className="text-xl md:text-2xl font-light mb-8 mt-4 text-green-900 text-shadow-md"
                         variants={fadeUp}
                         initial="hidden"
                         whileInView="visible"

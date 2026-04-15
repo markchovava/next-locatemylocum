@@ -1,4 +1,4 @@
-import AuthFooter from '@/app/(main)/_components/footers/AuthFooter'
+
 import RegisterPage from './_components/RegisterPage'
 import AuthHeader from '@/app/(main)/_components/headers/AuthHeader'
 
@@ -12,7 +12,7 @@ export default function page() {
 
         <RegisterPage />
 
-        <AuthFooter />
+       
     </main>
     </>
   )

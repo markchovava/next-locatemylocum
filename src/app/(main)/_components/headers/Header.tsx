@@ -8,7 +8,7 @@ import HeaderResponsive from './HeaderResponsive'
 export default function AuthHeader() {
   return (
     <>
-    <header className="hidden lg:block w-full bg-green-800 text-white py-4 border-b-6 drop-shadow-xl">
+    <header className="hidden lg:block w-full bg-green-800 text-white py-6 border-b-6 drop-shadow-xl">
         <div className="container__primary flex items-center justify-between">
            
             <Logo />

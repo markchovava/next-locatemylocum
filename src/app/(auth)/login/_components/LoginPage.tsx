@@ -63,11 +63,13 @@ export default function LoginPage() {
                 />
 
                 <div className="flex items-center justify-center">
-                    <Button 
-                        name="Login" 
-                        type="submit" 
-                        status={isSubmitting} 
-                    />
+                  <Link href='/admin'>
+                      <Button 
+                          name="Login" 
+                          type="submit" 
+                          status={isSubmitting} 
+                      />
+                  </Link>
                 </div>
 
                 <p className="font-light text-gray-700 text-center">Are you new to Locate a Locum? 
