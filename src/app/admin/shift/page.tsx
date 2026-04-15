@@ -1,4 +1,4 @@
-import BreadCrumb from '@/components/breadcrumbs/BreadCrumb'
+import BreadCrumb from '@/_components/breadcrumbs/BreadCrumb'
 import AdminHeader from '../_components/headers/AdminHeader'
 import ShiftPage from './_components/ShiftPage'
 

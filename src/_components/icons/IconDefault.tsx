@@ -89,6 +89,10 @@ import { BsCarFrontFill } from "react-icons/bs";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { MdOutlineTurnSharpLeft } from "react-icons/md";
 import { GoLinkExternal } from "react-icons/go";
+import { IoMdCheckmark } from "react-icons/io";
+import { MdOutlineHealthAndSafety } from "react-icons/md";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { TbPigMoney } from "react-icons/tb";
 
 interface PropsInterface {
     type: string
@@ -101,6 +105,14 @@ export default function IconDefault({
 }: PropsInterface) {
 
     switch (type) {
+        case 'money':
+            return <TbPigMoney className={css} />
+        case 'help':
+            return <FaHandHoldingHeart className={css} />
+        case 'health':
+            return <MdOutlineHealthAndSafety className={css} />
+        case 'mark':
+            return <IoMdCheckmark className={css} />
         case 'link':
             return <GoLinkExternal className={css} />
         case 'shift':

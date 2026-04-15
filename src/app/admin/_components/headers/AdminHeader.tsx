@@ -1,6 +1,6 @@
 "use client"
 import Logo from '../../../(main)/_components/logos/Logo'
-import IconDefault from '@/components/icons/IconDefault'
+import IconDefault from '@/_components/icons/IconDefault'
 import { AnimatePresence, motion, Variants } from 'motion/react';
 import { useState, useEffect, useRef, FC } from 'react';
 import AdminHeaderResponsive from './AdminHeaderResponsive';

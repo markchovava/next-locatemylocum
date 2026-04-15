@@ -1,6 +1,7 @@
 import BreadCrumb from "@/_components/breadcrumbs/BreadCrumb"
 import AdminHeader from "../_components/headers/AdminHeader"
-import MyFinancePage from "./_components/MyFinancePage"
+import MyDiaryPage from "./_components/MyDiaryPage"
+
 
 
 
@@ -16,7 +17,7 @@ export default function page() {
         <AdminHeader />
         <BreadCrumb data={CrumbsData} />
 
-        <MyFinancePage />
+        <MyDiaryPage />
         
     </main>
   )

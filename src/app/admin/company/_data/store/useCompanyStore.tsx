@@ -31,7 +31,7 @@ export const useCompanyStore = create<Props>((set, get) => ({
     isSearching: false,
     errors: CompanyEntity,
     dataList: [],
-    category: 'All',
+    category: 'All Companies',
     setCategory: (i) => {
         set({ category: i })
     },

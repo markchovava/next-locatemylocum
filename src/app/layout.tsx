@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Footer from "@/_components/footers/Footer";
 
 
 
@@ -20,6 +20,7 @@ export default function RootLayout({
       className={`h-full antialiased`}>
       <body className="min-h-full flex flex-col">
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -44,7 +44,7 @@ export const useMyShiftStore = create<Props>((set, get) => ({
     isSearching: false,
     errors: MyShiftEntity,
     dataList: [],
-    category: 'All',
+    category: 'For You',
     searchFields: SearchFieldsEntity,
     setSearchFieldsValue: (name, value) => {
         const fields = get().searchFields

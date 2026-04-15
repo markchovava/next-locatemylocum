@@ -1,6 +1,6 @@
 "use client"
 
-import IconDefault from "@/components/icons/IconDefault"
+import IconDefault from "@/_components/icons/IconDefault"
 import Logo from "../../../(main)/_components/logos/Logo"
 import { useState } from "react";
 import { motion, AnimatePresence, Variants } from "motion/react";

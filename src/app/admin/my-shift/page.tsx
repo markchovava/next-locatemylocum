@@ -1,4 +1,4 @@
-import BreadCrumb from "@/components/breadcrumbs/BreadCrumb"
+import BreadCrumb from "@/_components/breadcrumbs/BreadCrumb"
 import AdminHeader from "../_components/headers/AdminHeader"
 import MyShiftPage from "./_components/MyShiftPage"
 
@@ -20,4 +20,4 @@ export default function page() {
         
     </main>
   )
-}
+} 

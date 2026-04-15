@@ -23,7 +23,7 @@ export interface Props{
 
 export const useShiftStore = create<Props>((set, get) => ({ 
     data: ShiftEntity,
-    category: "",
+    category: "For You",
     isSearching: false,
     dataList: [],
     currentList: [],

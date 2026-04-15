@@ -10,6 +10,7 @@ import TitleSecondary from "../../_components/titles/TitleSecondary"
 import { SortData } from "../../_data/sample/SortData"
 import CompanyCard from "../../_components/cards/CompanyCard"
 import { NoImageData } from "../../_data/sample/NoData"
+import ButtonPaginate from "@/_components/buttons/ButtonPaginate"
 
 
 
@@ -25,7 +26,7 @@ export default function CompanyPage() {
   
     return (
     <>
-    <main className="pt-16">
+    <main className="pt-16 pb-20">
         <CompanyForm title="Search Company" />
 
         <CompanyCategorySection />
@@ -44,7 +45,7 @@ export default function CompanyPage() {
             </div>
         </section>
 
-        <div className="container__primary grid grid-cols-4 gap-8 py-6">
+        <div className="container__primary grid lg:grid-cols-4 gap-8 py-6">
             {CompanyData.slice(0, 12).map((i, key) => (
                 <CompanyCard
                     key={key}
@@ -56,6 +57,11 @@ export default function CompanyPage() {
                     shifts={i.locumJobs}
                 />
             ))}
+        </div>
+
+        <div className="container__primary flex items-center justify-end gap-4 mt-6 ">
+            <ButtonPaginate btnType="prev" />
+            <ButtonPaginate btnType="next" />
         </div>
 
     </main>
@@ -105,8 +111,8 @@ function CompanyForm({
         <section className="w-full">
             <div className="container__primary bg-white drop-shadow-lg rounded-xl py-8 px-8 ">
                 <Title name={title} css="mb-2 text-gray-700" />
-                <div className="grid grid-cols-8 gap-4">
-                    <div className="col-span-7">
+                <div className="grid lg:grid-cols-8 gap-4">
+                    <div className="lg:col-span-7">
                         <TextInput 
                             type='text'
                             name='search'
@@ -116,7 +122,7 @@ function CompanyForm({
                             placeholder="Search by Name."
                         />
                     </div>
-                    <div className="col-span-1">
+                    <div className="lg:col-span-1">
                         <Button type='button'
                             name='Search'
                             css="h-12 w-full rounded-xl"

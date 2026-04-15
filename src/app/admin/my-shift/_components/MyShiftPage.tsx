@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import Button from "@/app/(main)/_components/buttons/Button"
 import DropDownInput from "../../_components/inputs/DropDownInput"
 import TextInput from "../../_components/inputs/TextInput"
@@ -8,9 +9,8 @@ import { CompanyData } from "../../company/_data/sample/CompanyData"
 import { MyShiftCategoryData, MyShiftData } from "../_data/sample/MyShiftData"
 import { useMyShiftStore } from "../_data/store/useMyShiftStore"
 import ButtonSecondary from "../../_components/buttons/ButtonSecondary"
-import IconDefault from "@/components/icons/IconDefault"
-import Link from "next/link"
-import ButtonPaginate from "@/components/buttons/ButtonPaginate"
+import IconDefault from "@/_components/icons/IconDefault"
+import ButtonPaginate from "@/_components/buttons/ButtonPaginate"
 import { formatDate } from "@/_utils/formatDate"
 
 
@@ -148,7 +148,7 @@ function MyShiftForm(){
         setIsSearching
     } = useMyShiftStore()
     return(
-        <div className="grid lg:grid-cols-6 gap-3 mb-6">
+        <div className="grid lg:grid-cols-6 gap-3 lg:mb-6 mb-12">
             <div className="lg:col-span-2">
                 <DropDownInput
                     label="Company"

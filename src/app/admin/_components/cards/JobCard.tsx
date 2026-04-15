@@ -1,7 +1,7 @@
 "use client"
 
 import Button from "@/app/(main)/_components/buttons/Button"
-import IconDefault from "@/components/icons/IconDefault"
+import IconDefault from "@/_components/icons/IconDefault"
 import ButtonSecondary from "../buttons/ButtonSecondary"
 
 

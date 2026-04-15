@@ -1,6 +1,6 @@
 "use client"
 
-import IconDefault from "@/components/icons/IconDefault"
+import IconDefault from "@/_components/icons/IconDefault"
 import Title from "../../_components/titles/Title"
 import DropDownInput from "../../_components/inputs/DropDownInput"
 import { ProfessionalData } from "../../_data/sample/ProfessionData"
@@ -16,7 +16,7 @@ import { JobData } from "../../_data/sample/JobData"
 import JobCard from "../../_components/cards/JobCard"
 import { NoImageData } from "../../_data/sample/NoData"
 import { formatDate } from "@/_utils/formatDate"
-import ButtonPaginate from "@/components/buttons/ButtonPaginate"
+import ButtonPaginate from "@/_components/buttons/ButtonPaginate"
 
 
 

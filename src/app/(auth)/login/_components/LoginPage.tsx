@@ -1,10 +1,11 @@
 "use client"
 
-import TextInput from "@/app/(main)/_components/inputs/TextInput"
+
+import PasswordInput from "@/app/admin/_components/inputs/PasswordInput"
 import { useAuthStore } from "../../data/store/useAuthStore"
 import Button from "@/app/(main)/_components/buttons/Button"
+import TextInput from "@/app/admin/_components/inputs/TextInput"
 import Link from "next/link"
-import PasswordInput from "@/app/(main)/_components/inputs/PasswordInput"
 import { useEffect } from "react"
 
 
@@ -42,7 +43,7 @@ export default function LoginPage() {
             <hr className="border-b border-gray-100 mb-4" />
 
             <form onSubmit={handleSubmit} className="space-y-4">
-                <TextInput 
+                <TextInput
                     name="email" 
                     type="text"
                     label="Email"
@@ -52,7 +53,7 @@ export default function LoginPage() {
                     error={errors.email}
                 />
 
-                <PasswordInput 
+                <PasswordInput
                     name="password" 
                     label="Password"
                     placeholder="Enter Password here." 

@@ -1,6 +1,6 @@
 "use client"
 
-import IconDefault from "@/components/icons/IconDefault"
+import IconDefault from "@/_components/icons/IconDefault"
 import { useState } from "react"
 
 
