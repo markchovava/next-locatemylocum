@@ -13,6 +13,8 @@ import Link from "next/link"
 import ButtonPaginate from "@/components/buttons/ButtonPaginate"
 import { formatDate } from "@/_utils/formatDate"
 
+
+
 export default function MyShiftPage() {
     const title = 'My Shifts'
     const companyList: string[] = CompanyData.map((company) => company.name);
@@ -192,7 +194,7 @@ function MyShiftAside(){
     return(
         <ul className="space-y-3 w-full">
             {MyShiftCategoryData.map((i, key) => (
-                <li className="group cursor-pointer flex items-center justify-between">
+                <li key={key} className="group cursor-pointer flex items-center justify-between">
                     <span className={`text-gray-700 border-b-2 border-transparent 
                         group-hover:text-green-800 group-hover:border-green-800`}>
                         {i.name}
