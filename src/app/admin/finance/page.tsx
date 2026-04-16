@@ -1,6 +1,7 @@
 import BreadCrumb from "@/_components/breadcrumbs/BreadCrumb"
 import AdminHeader from "../_components/headers/AdminHeader"
-import FinancePage from "./_components/MyFinancePage"
+import FinancePage from "./_components/FinancePage"
+
 
 
 
